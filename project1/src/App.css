@@ -1,0 +1,34 @@
+@import './reset.css';
+@import './font.css';
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-size: 36px;
+}
+
+.mainContainer{
+    display : flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.mainBoarder{
+    border: 2px solid lightgreen;
+    height: 300px;
+    width: 400px;
+    margin : 10px;
+}
+
+.mainTop{
+    display: flex;
+    flex-direction: row;
+}
+
+.mainBottom{
+    display: flex;
+    flex-direction: row;
+}
